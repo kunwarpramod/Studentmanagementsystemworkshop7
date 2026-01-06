@@ -9,5 +9,10 @@ public class Student {
      this.name = name;
      this.age = age;
  }
- // Getters to be added later
+ public String getName() { 
+	 return name; 
+	 } 
+ public int getAge() {
+	 return age;
+	 }
 }
